@@ -1,1 +1,30 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    background-color: #4a5a4a; /* Woods background */
+}
 
+#crosshair {
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    width: 16px; 
+    height: 16px;
+    border-radius: 50%;
+    pointer-events: none; 
+    z-index: 10;
+}
+
+#ui {
+    position: fixed; 
+    bottom: 20px; 
+    left: 20px;
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 15px;
+    pointer-events: none; 
+    border-radius: 4px;
+    line-height: 1.5;
+    border: 1px solid #555;
+}
